@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".DetailResep">
+
+    <LinearLayout
+        android:id="@+id/linLayImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:background="@color/bgBlu1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/img_favorite" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/stxtDetailsTitle"
+        android:textColor="@color/bgBlu1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stxtContent"
+        android:textColor="@color/bgBlu1"
+        android:textSize="16sp" />
+</LinearLayout>

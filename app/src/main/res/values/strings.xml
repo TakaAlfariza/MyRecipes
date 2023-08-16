@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyRecipes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="txtStart">MULAI</string>
+    <string name="stxtLogin">LOGIN ACCOUNT</string>
+    <string name="stxtContent" >Bahan:
+- 200 gr beras, cuci bersih.
+- 2 siung bawang merah, iris tipis.
+- 1 siung bawang putih, iris tipis.
+- 1 btg sereh, geprek.
+- 1 lbr daun salam.
+- Cabe rawit.
+- Segenggam teri, goreng dan sisihkan.
+- Minyak goreng/margarin 1sdm.
+- 1/2 sdt garam.
+- Air untuk memasak nasi.
+
+Langkah masak:
+a. Masukan semua bahan dan aduk rata,
+b. Masak nasi menggunakan magicom, setelah matang aduk rata dan siap di sajikan.
+    </string>
+    <string name="sbtnLogin2">LOGIN</string>
+    <string name="stxtRegister">No Have a Account? Click Register Here...</string>
+    <string name="stxtRegister2">REGISTRATION A NEW ACCOUNT</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPhone">Phone Number</string>
+    <string name="hintPassword">Password</string>
+    <string name="sbtnRegister">REGISTER</string>
+    <string name="hintFullname">Fullname</string>
+    <string name="hintUsername">Username</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="stxtProfile">ACCOUNT PROFILE</string>
+    <string name="sbtnEdit">UPDATE</string>
+    <string name="txtWelcomeUser">WELCOME, MY USER</string>
+    <string name="stxtMakanan1">Sayur Asam Kacang Bereum</string>
+    <string name="stxtMakanan2">Pesmol Ikan Nila</string>
+    <string name="stxtMakanan3">Nasi Tutug Oncom</string>
+    <string name="stxtMakanan5">Nasi Liwet</string>
+    <string name="stxtMakanan4">Pepes Tahu</string>
+    <string name="stxtDeveloper">Developed by M.Bintang Restu Prabowo</string>
+    <string name="stxtDetailsTitle">Nasi Liwet</string>
+</resources>

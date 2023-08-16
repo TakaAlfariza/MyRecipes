@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgContent1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtWelcomeUser"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bannermyrecipes"
+        tools:ignore="ContentDescription" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <!--RecyclerView-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_recipes_list" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+</LinearLayout>
